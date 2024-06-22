@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subject-selection {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.subject-selection h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subjects-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subjects-list li {
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.subjects-list li:hover {
+    background-color: #e0e0e0;
+}
+
+.quiz-section, .score-section {
+    margin-top: 20px;
+}
+
+.question-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.options {
+    margin-bottom: 10px;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.options button.selected {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.options button.correct {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.options button.incorrect {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.options button:hover {
+    background-color: #e0e0e0;
+}
+
+.fill-answer {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.submit-answer, .next-question, .restart {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-answer:hover, .next-question:hover, .restart:hover {
+    background-color: #45a049;
+}
+
+.feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.score-section {
+    text-align: center;
+}
+
+.score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.extra-feedback {
+    margin-bottom: 20px;
+}
+
+.restart {
+    background-color: #f44336;
+}
+
+.restart:hover {
+    background-color: #d32f2f;
+}
