@@ -1,3 +1,5 @@
+/* 基础样式保持不变 */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -148,4 +150,48 @@ body {
 
 .restart:hover {
     background-color: #d32f2f;
+}
+
+/* 响应式设计 */
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .subject-selection h2 {
+        font-size: 20px;
+    }
+
+    .subjects-list li {
+        font-size: 16px;
+    }
+
+    .question-title {
+        font-size: 18px;
+    }
+
+    .options button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .fill-answer {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .submit-answer, .next-question, .restart {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .score {
+        font-size: 20px;
+    }
+
+    .extra-feedback {
+        font-size: 14px;
+    }
 }
