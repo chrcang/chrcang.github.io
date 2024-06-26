@@ -522,10 +522,7 @@
     "question": "数据表为OrderInfo根据商品编号(CID)统计不同商品订购数量(Amount)、总金额(PaySum)、均价数据.(使用大写英文书写答案(注意需要使用空格,不需要写别名))",
     "type": "fill-in-the-blank",
     "answers": [
-      "SELECT CID",
-      "SUM(Amount)",
-      "SUM(PaySum)",
-      "AVG(PaySum / Amount) FROM OrderInfo GROUP BY CID"
+      "SELECT CID,SUM(Amount),SUM(PaySum),AVG(PaySum / Amount) FROM OrderInfo GROUP BY CID"
     ]
   },
   {
