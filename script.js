@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const scoreDisplay = document.getElementById('score');
     const restartButton = document.getElementById('restart');
     const extraFeedback = document.getElementById('extra-feedback');
+    const buttonContainer = document.querySelector('.button-container');
 
     let questions = [];
     let currentQuestionIndex = 0;
@@ -18,11 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentQuestion = null;
     let selectedOption = null;
 
-    // 模拟题库数据，可以在此处添加更多题库和题目
     const subjects = [
         { name: 'MySQL', file: 'MySQL.json' },
         { name: 'JavaScript', file: 'JavaScript.json' },
-        { name: 'Java', file: 'java.json' }
+        { name: 'Java', file: 'Java.json' }
     ];
 
     function loadSubjects() {
@@ -71,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             options.forEach(option => {
                 const button = document.createElement('button');
                 button.textContent = option;
+                button.className = 'btn';
                 button.addEventListener('click', () => selectOption(button));
                 optionsDiv.appendChild(button);
             });
@@ -90,12 +91,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function checkAnswer() {
-        if (!selectedOption && currentQuestion.type === 'multiple-choice') {
+        if (currentQuestion.type === 'multiple-choice' && !selectedOption) {
             feedbackDiv.textContent = '请选择一个选项！';
             return;
         }
 
-        const answer = currentQuestion.type === 'multiple-choice' ? selectedOption.textContent : fillAnswer.value;
+        const answer = currentQuestion.type === 'multiple-choice' ? selectedOption.textContent : fillAnswer.value.trim();
         let correct = false;
 
         if (currentQuestion.type === 'multiple-choice') {
@@ -120,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             score++;
         }
 
-        submitAnswer.style.display = 'none';
+        submitAnswer.style.display = 'inline';
         nextQuestion.style.display = 'inline';
     }
 
