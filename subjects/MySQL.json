@@ -384,4 +384,46 @@
         ],
         "answer": "安全性"
     }
+    {
+          "type": "fill-in-the-blank",
+          "question": "在MySQL中，可以使用______词汇选择某个数据库为后续操作的默认数据库。(使用大写英文书写答案)",
+          "answers": [
+              "USE"
+          ]
+      },
+      {
+          "type": "fill-in-the-blank",
+          "question": "MySQL将整数类型分为5种，分别是TINYINT、SMALLINT、MEDIUMINT、______和BIGINT。(使用大写英文书写答案)",
+          "answers": [
+              "INT"
+          ]
+      },
+      {
+          "type": "fill-in-the-blank",
+          "question": "在MySQL中，使用______或者CREATE SCHEMA创建指定名称的数据库。(使用大写英文书写答案)",
+          "answers": [
+              "CREATE DATABASE"
+          ]
+      },
+      {
+          "type": "fill-in-the-blank",
+          "question": "在MySQL中，使用______或者SHOW SCHEMAS都可以查看创建好的数据库。(使用大写英文书写答案)",
+          "answers": [
+              "SHOW DATABASES"
+          ]
+      },
+      {
+          "type": "fill-in-the-blank",
+          "question": "______类型的字段用于存储固定长度的字符串。(使用大写英文书写答案)",
+          "answers": [
+              "CHAR"
+          ]
+      },
+      {
+          "type": "fill-in-the-blank",
+          "question": "______类型的字段用于存储可变长度的字符串。(使用大写英文书写答案)",
+          "answers": [
+              "VARCHAR"
+          ]
+      }
 ]
