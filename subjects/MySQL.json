@@ -415,10 +415,5 @@
           "answers": [
               "VARCHAR"
           ]
-      },
-      {
-        "question": "填空题：SQL 中用于插入数据的命令是 ______。",
-        "type": "fill-in-the-blank",
-        "answers": ["INSERT"]
-    }
+      }
       ]
