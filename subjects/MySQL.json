@@ -507,8 +507,7 @@
     "question": "如果会员表MemberInfo中的性别字段名为MSex，请问如何编写SQL语句来实现按性别分组并统计各组的会员数量.(使用大写英文书写答案(注意需要使用空格,不需要写别名))",
     "type": "fill-in-the-blank",
     "answers": [
-      "SELECT MSex",
-      "COUNT(*) FROM MemberInfo GROUP BY MSex"
+      "SELECT MSex,COUNT(*) FROM MemberInfo GROUP BY MSex"
     ]
   },
   {
