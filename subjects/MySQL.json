@@ -2,376 +2,428 @@
     {
         "type": "multiple-choice",
         "question": "数据库系统的核心是( )",
-        "options": ["数据库", "数据库管理系统", "数据模型", "软件工具"],
+        "options": [
+            "数据库",
+            "数据库管理系统",
+            "数据模型",
+            "软件工具"
+        ],
         "answer": "数据库管理系统"
     },
     {
         "type": "multiple-choice",
         "question": "SQL具有( )的功能",
-        "options": ["关系规范化,数据操纵,数据控制", "数据定义,数据操纵,数据控制", "数据定义,关系规范化,数据控制", "数据定义,关系规范化,数据操纵"],
+        "options": [
+            "关系规范化,数据操纵,数据控制",
+            "数据定义,数据操纵,数据控制",
+            "数据定义,关系规范化,数据控制",
+            "数据定义,关系规范化,数据操纵"
+        ],
         "answer": "数据定义,数据操纵,数据控制"
     },
-        {
-          "type": "multiple-choice",
-          "question": "SQL是(  )的语言,容易学习？",
-          "options": [
+    {
+        "type": "multiple-choice",
+        "question": "SQL是(  )的语言,容易学习？",
+        "options": [
             "过程化",
             "结构化",
             "格式化",
             "导航式"
-          ],
-          "answer": "结构化"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在数据库中储存的是(  )",
-          "options": [
+        ],
+        "answer": "结构化"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在数据库中储存的是(  )",
+        "options": [
             "数据库",
             "数据库管理员",
             "数据以及数据之间的联系",
             "信息"
-          ],
-          "answer": "数据以及数据之间的联系"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "DBMS的中文含义是(  )",
-          "options": [
+        ],
+        "answer": "数据以及数据之间的联系"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "DBMS的中文含义是(  )",
+        "options": [
             "数据库",
             "数据模型",
             "数据库系统",
             "数据库管理系统"
-          ],
-          "answer": "数据库管理系统"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "MySQL是一个(  )的数据库系统",
-          "options": [
+        ],
+        "answer": "数据库管理系统"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "MySQL是一个(  )的数据库系统",
+        "options": [
             "网状型",
             "层次型",
             "关系型",
             "以上都不是"
-          ],
-          "answer": "关系型"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在数据管理技术的发展过程中经历了人工管理阶段，文件系统阶段和数据库系统阶段，在这几个阶段中数据独立性最高的是(  )阶段",
-          "options": [
+        ],
+        "answer": "关系型"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在数据管理技术的发展过程中经历了人工管理阶段，文件系统阶段和数据库系统阶段，在这几个阶段中数据独立性最高的是(  )阶段",
+        "options": [
             "数据库系统",
             "文件系统",
             "人工管理",
             "数据项管理"
-          ],
-          "answer": "数据库系统"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "客观存在的各种报表，图表和查询格式等原始数据属于(  )",
-          "options": [
+        ],
+        "answer": "数据库系统"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "客观存在的各种报表，图表和查询格式等原始数据属于(  )",
+        "options": [
             "机器世界",
             "信息世界",
             "现实世界",
             "模型世界"
-          ],
-          "answer": "信息世界"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "关系数据模型(  )",
-          "options": [
+        ],
+        "answer": "信息世界"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "关系数据模型(  )",
+        "options": [
             "只能表示实体间的1:1的联系",
             "只能表示实体间的1:n联系",
             "只能表示实体间的m:n联系",
             "可以表示实体间的上述3种联系"
-          ],
-          "answer": "可以表示实体间的上述3种联系"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "设有关系模式EMP(职工号，姓名，年龄，技能),假设职工号唯一,每个职工有多项技能，则EMP表的主键是(  )",
-          "options": [
+        ],
+        "answer": "可以表示实体间的上述3种联系"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "设有关系模式EMP(职工号，姓名，年龄，技能),假设职工号唯一,每个职工有多项技能，则EMP表的主键是(  )",
+        "options": [
             "职工号",
             " 姓名,技能",
             "技能",
             "职工号,技能"
-          ],
-          "answer": "职工号,技能"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "某公司经销多种产品，每名业务员可以推销多种产品，且每种产品由多名业务员推销，则业务员与产品之间的关系是(  )",
-          "options": [
+        ],
+        "answer": "职工号,技能"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "某公司经销多种产品，每名业务员可以推销多种产品，且每种产品由多名业务员推销，则业务员与产品之间的关系是(  )",
+        "options": [
             "一对一",
             "一对多",
             "多对多",
             "多对一"
-          ],
-          "answer": "多对多"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在MySQL中,建立数据库使用的命令是(  )",
-          "options": [
+        ],
+        "answer": "多对多"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在MySQL中,建立数据库使用的命令是(  )",
+        "options": [
             "CREATE DATABASE",
             "CREATE TABLE",
             "CREATE VIEW",
             "CREATE INDEX"
-          ],
-          "answer": "CREATE DATABASE"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "对于MySQL,错误的说法是(  )",
-          "options": [
+        ],
+        "answer": "CREATE DATABASE"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "对于MySQL,错误的说法是(  )",
+        "options": [
             "MySQL是一款关系数据库系统",
             "MySQL是一款网络数据库系统",
             "MySQL可以在Linux或Windows操作系统下运行",
             "MySQL对SQL的支持不是太好"
-          ],
-          "answer": "MySQL对SQL的支持不是太好"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在创建表时,不允许某列为空可以使用(  )",
-          "options": [
+        ],
+        "answer": "MySQL对SQL的支持不是太好"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在创建表时,不允许某列为空可以使用(  )",
+        "options": [
             "NOT NULL",
             "NO NULL",
             "NOT BLANK",
             "NO BLANK"
-          ],
-          "answer": "NOT NULL"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "支持外键的储存引擎是(  )",
-          "options": [
+        ],
+        "answer": "NOT NULL"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "支持外键的储存引擎是(  )",
+        "options": [
             "MyISAM",
             "InnoDB",
             "MEMORY",
             "CHARACTER"
-          ],
-          "answer": "InnoDB"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "\"ALTER TABLE t1 MODIFY b INT NOT NULL\"语句的作用是(  )",
-          "options": [
+        ],
+        "answer": "InnoDB"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "\"ALTER TABLE t1 MODIFY b INT NOT NULL\"语句的作用是(  )",
+        "options": [
             "修改数据库表名为b",
             "修改表t1中列b的列名",
             "在表t1中添加一列b",
             "修改表t1中列b数据类型"
-          ],
-          "answer": "修改表t1中列b数据类型"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在MySQL语法中，用来插入数据的命令是(  )",
-          "options": [
+        ],
+        "answer": "修改表t1中列b数据类型"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在MySQL语法中，用来插入数据的命令是(  )",
+        "options": [
             "INSERT",
             "UPDATE",
             "DELETE",
             "CREATE"
-          ],
-          "answer": "INSERT"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在MySQL语法中，用来修改数据的命令是(  )",
-          "options": [
+        ],
+        "answer": "INSERT"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在MySQL语法中，用来修改数据的命令是(  )",
+        "options": [
             "INSERT",
             "UPDATE",
             "DELETE",
             "CREATE"
-          ],
-          "answer": "UPDATE"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "设关系数据库中一个表S的结构为s(sname,cname,grade),其中sname为学生姓名,cname为课程名,二者均为字符型;grade为成绩,为数值型,取值范围为0~100。若要更正张三的化学成绩为85分，则可用(  )",
-          "options": [
+        ],
+        "answer": "UPDATE"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "设关系数据库中一个表S的结构为s(sname,cname,grade),其中sname为学生姓名,cname为课程名,二者均为字符型;grade为成绩,为数值型,取值范围为0~100。若要更正张三的化学成绩为85分，则可用(  )",
+        "options": [
             "update s set grade=85 where sname='张三' and cname='化学'",
             "update s set grade='85' where sname='张三' and cname='化学'",
             "update grade=85 where sname='张三' and cname='化学'",
             "alter s grade=85 where sname='张三' and cname='化学'"
-          ],
-          "answer": "update s set grade=85 where sname='张三' and cname='化学'"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "设关系数据库中一个表S的结构为s(sname,cname,grade),其中sname为学生姓名,cname为课程名,二者均为字符型;grade为成绩,为数值型,取值范围为0~100。若要把\"张三的化学成绩80分\"插入表S中，则可用(  )",
-          "options": [
+        ],
+        "answer": "update s set grade=85 where sname='张三' and cname='化学'"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "设关系数据库中一个表S的结构为s(sname,cname,grade),其中sname为学生姓名,cname为课程名,二者均为字符型;grade为成绩,为数值型,取值范围为0~100。若要把\"张三的化学成绩80分\"插入表S中，则可用(  )",
+        "options": [
             "add into s values('张三','化学','80')",
             "insert into s values('张三','化学','80')",
             "insert s values('张三','化学',80)",
             "insert into s values('张三','化学',80)"
-          ],
-          "answer": "insert into s values('张三','化学',80)"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "下列MySQL语句中出现了语法错误的是(  )",
-          "options": [
+        ],
+        "answer": "insert into s values('张三','化学',80)"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "下列MySQL语句中出现了语法错误的是(  )",
+        "options": [
             "delete from grade",
             "select * from grade",
             "create database sti",
             "delete * from grade"
-          ],
-          "answer": "delete * from grade"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "下列运算符中可以实现模糊查询的是(  )",
-          "options": [
+        ],
+        "answer": "delete * from grade"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "下列运算符中可以实现模糊查询的是(  )",
+        "options": [
             "=",
             "IN",
             "LIKE",
             "<>"
-          ],
-          "answer": "LIKE"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在SELECT语句中使用\"*\"表示(  )",
-          "options": [
+        ],
+        "answer": "LIKE"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在SELECT语句中使用\"*\"表示(  )",
+        "options": [
             "选择全部元组",
             "选择全部列",
             "选择主码所在的列",
             "选择有非空约束的列"
-          ],
-          "answer": "选择全部列"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在SELECT语句的WHERE子句的条件表达式中,可以匹配0到多个字符的通配符是(  )",
-          "options": [
+        ],
+        "answer": "选择全部列"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在SELECT语句的WHERE子句的条件表达式中,可以匹配0到多个字符的通配符是(  )",
+        "options": [
             "*",
             "%",
             "-",
             "?"
-          ],
-          "answer": "%"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "SELECT查询中,要把结果中的行按照某一列的值进行排序，所用到的子句是(  )",
-          "options": [
+        ],
+        "answer": "%"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "SELECT查询中,要把结果中的行按照某一列的值进行排序，所用到的子句是(  )",
+        "options": [
             "ORDER BY",
             "WHERE",
             "GROUP BY",
             "HAVING"
-          ],
-          "answer": "ORDER BY"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在SELECT语句中,用于去除重复行的关键词是(  )",
-          "options": [
+        ],
+        "answer": "ORDER BY"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在SELECT语句中,用于去除重复行的关键词是(  )",
+        "options": [
             "TOP",
             "DISTINCT",
             "PERCENT",
             "HAVING"
-          ],
-          "answer": "DISTINCT"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "SELECT语句中,通常与HAVING子句同时使用的是(  )子句",
-          "options": [
+        ],
+        "answer": "DISTINCT"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "SELECT语句中,通常与HAVING子句同时使用的是(  )子句",
+        "options": [
             "ORDER BY",
             "WHERE",
             "GROUP BY",
             "无须配合"
-          ],
-          "answer": "GROUP BY"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "MySQL中,下列涉及空值的操作,不正确的是(  )",
-          "options": [
+        ],
+        "answer": "GROUP BY"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "MySQL中,下列涉及空值的操作,不正确的是(  )",
+        "options": [
             "age IS NULL",
             "age IS NOT NULL",
             "age = NULL",
             "NOT(age IS NULL)"
-          ],
-          "answer": "age = NULL"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "假设数据表\"职工\"表中有10条记录，获得\"职工\"表最前面两条记录的命令为(  )",
-          "options": [
+        ],
+        "answer": "age = NULL"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "假设数据表\"职工\"表中有10条记录，获得\"职工\"表最前面两条记录的命令为(  )",
+        "options": [
             "SELECT 2 * FROM 职工",
             "SELECT * FROM 职工 LIMIT 2",
             "SELECT PERCENT 2 * FROM 职工",
             "SELECT 2 FROM 职工"
-          ],
-          "answer": "SELECT * FROM 职工 LIMIT 2"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "如果要查询公司员工的平均收入，则使用以下哪个聚合函数(  )",
-          "options": [
+        ],
+        "answer": "SELECT * FROM 职工 LIMIT 2"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "如果要查询公司员工的平均收入，则使用以下哪个聚合函数(  )",
+        "options": [
             "SUM",
             "ABS",
             "COUNT",
             "AVG"
-          ],
-          "answer": "AVG"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在SELECT查询语句中，如果要对得到的结果中的某个字段按降序处理，则在ORDER BY短句中使用参数(  )",
-          "options": [
+        ],
+        "answer": "AVG"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在SELECT查询语句中，如果要对得到的结果中的某个字段按降序处理，则在ORDER BY短句中使用参数(  )",
+        "options": [
             "ASC",
             "DESC",
             "BETWEEN",
             "IN"
-          ],
-          "answer": "DESC"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在MySQL中,建立视图使用的命令是(  )",
-          "options": [
+        ],
+        "answer": "DESC"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在MySQL中,建立视图使用的命令是(  )",
+        "options": [
             "CREATE SCHEMA",
             "CREATE TABLE",
             "CREATE VIEW",
             "CREATE INDEX"
-          ],
-          "answer": "CREATE VIEW"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "在视图上不能完成的操作是(  )",
-          "options": [
+        ],
+        "answer": "CREATE VIEW"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "在视图上不能完成的操作是(  )",
+        "options": [
             "定义查询",
             "定义基本表",
             "更新视图",
             "定义新视图"
-          ],
-          "answer": "定义基本表"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "MySQL的视图是从(  )中导出的",
-          "options": [
+        ],
+        "answer": "定义基本表"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "MySQL的视图是从(  )中导出的",
+        "options": [
             "基本表",
             "视图",
             "基本表或视图",
             "数据库"
-          ],
-          "answer": "基本表或视图"
-        },
-        {
-          "type": "multiple-choice",
-          "question": "视图提高了数据库系统的(  )",
-          "options": [
+        ],
+        "answer": "基本表或视图"
+    },
+    {
+        "type": "multiple-choice",
+        "question": "视图提高了数据库系统的(  )",
+        "options": [
             "完整性",
             "并发控制",
             "隔离性",
             "安全性"
-          ],
-          "answer": "安全性"
-        }
-      ]
+        ],
+        "answer": "安全性"
+    },
+    {
+        "type": "fill-in-the-blank",
+        "question": "在MySQL中，可以使用______词汇选择某个数据库为后续操作的默认数据库。(使用大写英文书写答案)",
+        "answer": [
+            "USE"
+        ]
+    },
+    {
+        "type": "fill-in-the-blank",
+        "question": "MySQL将整数类型分为5种，分别是TINYINT、SMALLINT、MEDIUMINT、______和BIGINT。(使用大写英文书写答案)",
+        "answer": [
+            "INT"
+        ]
+    },
+    {
+        "type": "fill-in-the-blank",
+        "question": "在MySQL中，使用______或者CREATE SCHEMA创建指定名称的数据库。(使用大写英文书写答案)",
+        "answer": [
+            "CREATE DATABASE"
+        ]
+    },
+    {
+        "type": "fill-in-the-blank",
+        "question": "在MySQL中，使用______或者SHOW SCHEMAS都可以查看创建好的数据库。(使用大写英文书写答案)",
+        "answer": [
+            "SHOW DATABASES"
+        ]
+    },
+    {
+        "type": "fill-in-the-blank",
+        "question": "______类型的字段用于存储固定长度的字符串。(使用大写英文书写答案)",
+        "answer": [
+            "CHAR"
+        ]
+    },
+    {
+        "type": "fill-in-the-blank",
+        "question": "______类型的字段用于存储可变长度的字符串。(使用大写英文书写答案)",
+        "answer": [
+            "VARCHAR"
+        ]
+    }
+]
