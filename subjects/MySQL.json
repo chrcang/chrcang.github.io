@@ -532,7 +532,7 @@
         ]
     },
     {
-        "question": "假设订单表的名称为OrderInfo，包含字段OrderID(订单编号)和SendGoods(订单状态)，请编写一个SQL语句将1号订单的状态更新为“已发货”.(使用大写英文书写答案(注意需要使用空格))",
+        "question": "假设订单表的名称为OrderInfo，包含字段OrderID(订单编号)和SendGoods(订单状态)，请编写一个SQL语句将1号订单的状态更新为“已发货”(状态为1).(使用大写英文书写答案(注意需要使用空格))",
         "type": "fill-in-the-blank",
         "answers": [
             "UPDATE OrderInfo SET SendGoods = 1 WHERE OrderID = 1"
