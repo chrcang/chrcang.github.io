@@ -497,7 +497,7 @@
         ]
     },
     {
-        "question": "假设你有一个名为MemberInfo的数据库表，其中包含字段MSex和MPhone，如何构造一个SQL查询来找出所有性别字段值为“男”且电话字段值以“010”开始的会员.(使用大写英文书写答案(注意需要使用空格))",
+        "question": "假设你有一个名为MemberInfo的数据库表，其中包含字段MSex和MPhone，如何构造一个SQL查询来找出所有性别字段值为“0”且电话字段值以“010”开始的会员.(使用大写英文书写答案(注意需要使用空格))",
         "type": "fill-in-the-blank",
         "answers": [
             "SELECT * FROM MemberInfo WHERE MSex = 0 AND MPhone LIKE '010%'"
