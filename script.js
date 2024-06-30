@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const subjects = [
         { name: 'MySQL', file: 'MySQL.json' },
+        { name: '思想与政治', file: '思想与政治.json' },
         { name: 'JavaScript', file: 'JavaScript.json' },
         { name: 'Java', file: 'Java.json' }
     ];
