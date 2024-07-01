@@ -1,0 +1,121 @@
+[
+    {
+        "question": "May I reserve a double room？",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "我可以订一个双人房间吗？"
+        ]
+    },
+    {
+        "question": "When will you check into the hotel？",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你什么时候入住酒店？"
+        ]
+    },
+    {
+        "question": "Do you pay by credit card or in cash？",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "您是用信用卡还是现金支付？"
+        ]
+    },
+    {
+        "question": "Can you introduce some of your tours to me?",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你能给我推荐一些你们的旅游线路吗？"
+        ]
+    },
+    {
+        "question": "How much is the package tour for 7 days?",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "跟团7日游多少钱？"
+        ]
+    },
+    {
+        "question": "Where are you going for your summer holiday？",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "暑假你打算去哪儿？"
+        ]
+    },
+    {
+        "question": "Do you have a one–day–tour？",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你们有一日游的团吗？"
+        ]
+    },
+    {
+        "question": "I'm terrible sorry, but i' ve made other plans. Thanks anyway.",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "非常抱歉，但是我已经有别的安排了。不过还是要谢谢你。"
+        ]
+    },
+    {
+        "question": "Who are you chatting with?",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你在和谁聊天？"
+        ]
+    },
+    {
+        "question": "I really like VR technology a lot.",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "我真的很喜欢虚拟现实技术。"
+        ]
+    },
+    {
+        "question": "You really go online a lot, don't you？",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你是不是经常上网？"
+        ]
+    },
+    {
+        "question": "Would you like anything to drink?",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你要来点饮料吗？"
+        ]
+    },
+    {
+        "question": "Could I take your order, please?",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "可以点菜了吗？"
+        ]
+    },
+    {
+        "question": "Do you accept traveler's checks?",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你们接受旅行支票吗？"
+        ]
+    },
+    {
+        "question": "How long will you stay there?",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你会在那里待多久？"
+        ]
+    },
+    {
+        "question": "Could you make it any other time?",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你可以定个别的时间吗？"
+        ]
+    },
+    {
+        "question": "Without going anyway at all, you get to enter a  completely virtual word.",
+        "type": "fill-in-the-blank",
+        "answers": [
+            "你不需要去任何地方就可以进入一个完全虚拟的世界。"
+        ]
+    }
+]
